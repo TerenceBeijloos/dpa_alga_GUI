@@ -27,19 +27,199 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Timer\Timer.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Builders\AstroidBuilder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Builders\PlanetBuilder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\External\tinyxml2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GalaxyEntities\AGalaxyEntity.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GalaxyEntities\Astroid.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GalaxyEntities\IGalaxyEntityBuilder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GalaxyEntities\Planet.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Globals\Color.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Globals\Position.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Globals\TypeConverter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Storage\GalaxyEntityStorage.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Storage\GalaxyMap.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\BPlanetPropertyStratergy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\BPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\ColorPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\CSVFileHandlerStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\NamePlanetPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\RadiusPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\VxPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\VyPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\XMLFileHandlerStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\XPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategies\YPropertyStrategy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QT\Timer\Timer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QT\GraphicsItem\GraphicsItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QT\Converter\QColorConverter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QT\Converter\QPositionConverter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Headers\Timer\Timer.h">
+    <ClInclude Include="Headers\Builders\AstroidBuilder.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="Headers\Timer\ITimerMethod.h">
+    <ClInclude Include="Headers\Builders\GalaxyDirector.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Builders\IGalaxyEntityBuilder.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Builders\PlanetBuilder.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Decorators\BOnCollision.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\External\tinyxml2.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Factories\FactoryMethod.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Factories\FactoryMethod.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GalaxyEntities\AGalaxyEntity.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GalaxyEntities\Astroid.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GalaxyEntities\IGalaxyEntity.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GalaxyEntities\Planet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Globals\Color.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Globals\Defines.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Globals\Position.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Globals\TypeConverter.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Storage\GalaxyEntityStorage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Storage\GalaxyMap.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\BPlanetPropertyStratergy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\BPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\ColorPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\CSVFileHandlerStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\GalaxyEntityStorage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\iFileHandlerStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\NamePlanetPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\RadiusPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\VxPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\VyPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\XMLFileHandlerStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\XPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Strategies\YPropertyStrategy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\QT\Timer\ITimerMethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\QT\Timer\Timer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\QT\GraphicsItem\GraphicsItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\QT\Converter\QColorConverter.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\QT\Converter\QPositionConverter.h">
+      <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

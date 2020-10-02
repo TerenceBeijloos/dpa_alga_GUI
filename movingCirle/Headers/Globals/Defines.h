@@ -32,6 +32,11 @@ const struct {
 	coördinateType y = 20;
 } SCREEN_SIZE;
 
+typedef struct {
+	unsigned int width;
+	unsigned int height;
+} viewSize;
+
 typedef enum class colorEnum
 {
 	blue,

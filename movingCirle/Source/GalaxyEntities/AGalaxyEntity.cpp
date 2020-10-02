@@ -65,11 +65,6 @@ void AGalaxyEntity::setColor(const std::string& color)
 	_color.setColor(color);
 }
 
-void AGalaxyEntity::setColor(const ColorEnum& color)
-{
-	_color.setColor(color);
-}
-
 Color AGalaxyEntity::getColor() const
 {
 	return _color;

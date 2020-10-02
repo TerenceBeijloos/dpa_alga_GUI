@@ -26,7 +26,6 @@ public:
 
     virtual void setColor(const Color& _color) override;
     virtual void setColor(const std::string& _color) override;
-    virtual void setColor(const ColorEnum& _color) override;
     virtual Color getColor() const override;
 
 protected:

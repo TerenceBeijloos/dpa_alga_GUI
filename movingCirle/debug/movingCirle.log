@@ -1,2 +1,25 @@
-﻿  main.cpp
+﻿  Reading Qt configuration (C:/Qt/5.15.1/msvc2019_64/bin/qmake)
+  AstroidBuilder.cpp
+  PlanetBuilder.cpp
+  AGalaxyEntity.cpp
+  Astroid.cpp
+  IGalaxyEntityBuilder.cpp
+  Planet.cpp
+  Color.cpp
+  Position.cpp
+  QPositionConverter.cpp
+  GraphicsItem.cpp
+  GalaxyEntityStorage.cpp
+  GalaxyMap.cpp
+  BPlanetPropertyStratergy.cpp
+C:\Users\MrBombastique\source\Qt\dpa_alga_GUI\movingCirle\Source\GalaxyEntities\Astroid.cpp(3,39): warning C4100: 'a': unreferenced formal parameter
+  BPropertyStrategy.cpp
+  ColorPropertyStrategy.cpp
+  NamePlanetPropertyStrategy.cpp
+  RadiusPropertyStrategy.cpp
+  VxPropertyStrategy.cpp
+  VyPropertyStrategy.cpp
+  XMLFileHandlerStrategy.cpp
+  XPropertyStrategy.cpp
+  YPropertyStrategy.cpp
   movingCirle.vcxproj -> C:\Users\MrBombastique\source\Qt\dpa_alga_GUI\movingCirle\debug\movingCirle.exe

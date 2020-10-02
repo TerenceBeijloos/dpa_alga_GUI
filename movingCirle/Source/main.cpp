@@ -4,15 +4,16 @@
 #include <QGraphicsEllipseItem>
 #include <QGraphicsView>
 #include <QTimer>
-#include "../Headers/Timer/Timer.h"
+#include "../Headers/QT/Timer/Timer.h"
 
 class update : public ITimerMethod{
 public:
 
     void someMethod(){
+ 
         QPointF point = _rect->pos();
-        point.setX(point.x()+5);
-        point.setY(point.y()+5);
+        point.setX(-1*(_view->width()/2));
+        point.setY(-1 * (_view->height() / 2));
         _rect->setPos(point);
     }
 
@@ -23,6 +24,12 @@ public:
     void setRect(QGraphicsEllipseItem* item){
         _rect = item;
     }
+
+    void setView(QGraphicsView* view) {
+        _view = view;
+    }
+
+    QGraphicsView* _view;
     QGraphicsEllipseItem* _rect;
 };
 
@@ -57,7 +64,7 @@ int main(int argc, char *argv[])
     QGraphicsScene* scene  = new QGraphicsScene{};
     QGraphicsEllipseItem* rect =  new QGraphicsEllipseItem{};
 
-    rect->setRect(0,0,100,100);
+    rect->setRect(-0,-0,10,10);
     QBrush brush;
     brush.setStyle(Qt::BrushStyle::SolidPattern);
     brush.setColor(Qt::blue);
@@ -65,13 +72,16 @@ int main(int argc, char *argv[])
     scene->addItem(rect);
 
     QGraphicsView* view =  new QGraphicsView(scene);
-
+    
     view->showFullScreen();
 
+   
     Timer t;
     update* u = new update{};
 
     u->setRect(rect);
+    u->setView(view);
+
     t.startTimer(u);
 
     return a.exec();

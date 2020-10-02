@@ -25,6 +25,5 @@ public:
 
     virtual void setColor(const Color& _color) = 0;
     virtual void setColor(const std::string& _color) = 0;
-    virtual void setColor(const ColorEnum& _color) = 0;
     virtual Color getColor() const = 0;
 };

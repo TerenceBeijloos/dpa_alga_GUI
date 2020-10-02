@@ -12,11 +12,11 @@ public:
 	ColorEnum stringToColorEnum(const std::string&) const;
 
 	void setColor(const std::string&);
-	void setColor(const ColorEnum&);
+	//void setColor(const ColorEnum&);
 
-	inline ColorEnum getColor() const { return this->color; }
-
+	inline std::string getColorString() const { return this->_color; }
 private:
-	ColorEnum color;
-	std::map<std::string, ColorEnum> colorMap;
+	std::string _color;
+	/*ColorEnum color;
+	std::map<std::string, ColorEnum> colorMap;*/
 };

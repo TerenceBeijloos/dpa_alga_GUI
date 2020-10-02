@@ -161,12 +161,72 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Builders\AstroidBuilder.cpp" />
+    <ClCompile Include="Source\Builders\PlanetBuilder.cpp" />
+    <ClCompile Include="Source\External\tinyxml2.cpp" />
+    <ClCompile Include="Source\GalaxyEntities\AGalaxyEntity.cpp" />
+    <ClCompile Include="Source\GalaxyEntities\Astroid.cpp" />
+    <ClCompile Include="Source\GalaxyEntities\IGalaxyEntityBuilder.cpp" />
+    <ClCompile Include="Source\GalaxyEntities\Planet.cpp" />
+    <ClCompile Include="Source\Globals\Color.cpp" />
+    <ClCompile Include="Source\Globals\Position.cpp" />
+    <ClCompile Include="Source\Globals\TypeConverter.cpp" />
+    <ClCompile Include="Source\QT\Converter\QColorConverter.cpp" />
+    <ClCompile Include="Source\QT\Converter\QPositionConverter.cpp" />
+    <ClCompile Include="Source\QT\GraphicsItem\GraphicsItem.cpp" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\Timer\Timer.cpp" />
+    <ClCompile Include="Source\Storage\GalaxyEntityStorage.cpp" />
+    <ClCompile Include="Source\Storage\GalaxyMap.cpp" />
+    <ClCompile Include="Source\Strategies\BPlanetPropertyStratergy.cpp" />
+    <ClCompile Include="Source\Strategies\BPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\ColorPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\CSVFileHandlerStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\NamePlanetPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\RadiusPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\VxPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\VyPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\XMLFileHandlerStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\XPropertyStrategy.cpp" />
+    <ClCompile Include="Source\Strategies\YPropertyStrategy.cpp" />
+    <ClCompile Include="Source\QT\Timer\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Headers\Timer\Timer.h" />
-    <ClInclude Include="Headers\Timer\ITimerMethod.h" />
+    <ClInclude Include="Headers\Builders\AstroidBuilder.h" />
+    <ClInclude Include="Headers\Builders\GalaxyDirector.h" />
+    <ClInclude Include="Headers\Builders\IGalaxyEntityBuilder.h" />
+    <ClInclude Include="Headers\Builders\PlanetBuilder.h" />
+    <ClInclude Include="Headers\Decorators\BOnCollision.h" />
+    <ClInclude Include="Headers\External\tinyxml2.h" />
+    <ClInclude Include="Headers\Factories\FactoryMethod.h" />
+    <ClInclude Include="Headers\Factories\FactoryMethod.hpp" />
+    <ClInclude Include="Headers\GalaxyEntities\AGalaxyEntity.h" />
+    <ClInclude Include="Headers\GalaxyEntities\Astroid.h" />
+    <ClInclude Include="Headers\GalaxyEntities\IGalaxyEntity.h" />
+    <ClInclude Include="Headers\GalaxyEntities\Planet.h" />
+    <ClInclude Include="Headers\Globals\Color.h" />
+    <ClInclude Include="Headers\Globals\Defines.h" />
+    <ClInclude Include="Headers\Globals\Position.h" />
+    <ClInclude Include="Headers\Globals\TypeConverter.h" />
+    <ClInclude Include="Headers\QT\Converter\QColorConverter.h" />
+    <ClInclude Include="Headers\QT\GraphicsItem\GraphicsItem.h" />
+    <ClInclude Include="Headers\Storage\GalaxyEntityStorage.h" />
+    <ClInclude Include="Headers\Storage\GalaxyMap.h" />
+    <ClInclude Include="Headers\Strategies\BPlanetPropertyStratergy.h" />
+    <ClInclude Include="Headers\Strategies\BPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\ColorPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\CSVFileHandlerStrategy.h" />
+    <ClInclude Include="Headers\Strategies\GalaxyEntityStorage.h" />
+    <ClInclude Include="Headers\Strategies\iFileHandlerStrategy.h" />
+    <ClInclude Include="Headers\Strategies\NamePlanetPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\RadiusPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\VxPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\VyPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\XMLFileHandlerStrategy.h" />
+    <ClInclude Include="Headers\Strategies\XPropertyStrategy.h" />
+    <ClInclude Include="Headers\Strategies\YPropertyStrategy.h" />
+    <ClInclude Include="Headers\QT\Timer\Timer.h" />
+    <ClInclude Include="Headers\QT\Timer\ITimerMethod.h" />
+    <ClInclude Include="Headers\QT\Converter\QPositionConverter.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="debug\moc_predefs.h.cbt">
