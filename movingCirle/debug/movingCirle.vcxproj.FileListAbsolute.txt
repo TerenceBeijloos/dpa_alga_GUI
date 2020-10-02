@@ -1,0 +1,2 @@
+C:\Users\MrBombastique\source\Qt\dpa_alga_GUI\movingCirle\debug\movingCirle.exe
+C:\Users\MrBombastique\source\Qt\dpa_alga_GUI\movingCirle\debug\movingCirle.pdb
